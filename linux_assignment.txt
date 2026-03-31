@@ -1,0 +1,44 @@
+Linux Practice Assignment & Solutions
+
+Challenge 1: Workspace Setup Commands: mkdir, cd, pwd, touch, ls
+
+Solution: mkdir linux_lab cd linux_lab touch file1.txt file2.txt
+file3.txt file4.txt file5.txt pwd ls
+
+Challenge 2: File Organizer Commands: cp, mv, ls
+
+Solution: mkdir backup cp *.txt backup/ cd backup mv file1.txt
+backup1.txt mv file2.txt backup2.txt mv file3.txt backup3.txt mv
+file4.txt backup4.txt mv file5.txt backup5.txt ls
+
+Challenge 3: File Viewer Commands: cat, echo, wc
+
+Solution: echo “hello world” > file1.txt echo “linux practice” >
+file2.txt echo “devops learning” > file3.txt
+
+cat cat | wc -w
+
+Challenge 4: Search Master Commands: grep, cat
+
+Solution: echo -e “error success error success error success error
+success error success” > log.txt cat log.txt grep “error” log.txt
+
+Challenge 5: System Identity Commands: whoami, uname, cal
+
+Solution: whoami uname -a cal
+
+Challenge 6: File Locator Commands: locate, whereis
+
+Solution: whereis bash locate “*.txt”
+
+Challenge 7: Clean Workspace Commands: rm, rmdir, ls
+
+Solution: rm file1.txt file2.txt mkdir tempdir rmdir tempdir ls
+
+Challenge 8: Disk Awareness Commands: df
+
+Solution: df -h
+
+Challenge 9: Process Watcher Commands: ps
+
+Solution: ps ps | grep bash
