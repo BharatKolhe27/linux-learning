@@ -439,8 +439,6 @@ ls *.pdf | wc -l
 
 # 16. Standard Practice Routine
 
-## Daily 30–45 mins
-
 ### Step 1: Setup
 
 ```bash
